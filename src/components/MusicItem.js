@@ -1,7 +1,10 @@
 import React from 'react';
 
-class MusicItem extends React.Component {
-
-}
-
+const MusicItem = ({children}) => (
+  <div>
+    <li>
+      {children}
+    </li>
+  </div>
+)
 export default MusicItem;

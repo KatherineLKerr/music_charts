@@ -1,12 +1,16 @@
 .music-item {
   border: solid 1px dimgrey;
   margin: 5px;
-  width: 500px;
   padding: 5px;
+  width: 500px;
   list-style: none;
   background-color: lavender;
 }
+li{
+  display:flex;
+  flex-direction: row;
 
+}
 p {
   margin: 5px;
   color: dimgrey

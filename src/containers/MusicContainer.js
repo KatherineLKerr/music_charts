@@ -1,5 +1,6 @@
 import React from 'react';
 import MusicList from '../components/MusicList'
+import './MusicContainer.css';
 
 class MusicContainer extends React.Component {
 

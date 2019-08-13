@@ -1,5 +1,6 @@
 import React from 'react';
 import MusicItem from './MusicItem'
+import './MusicList.css';
 
 class MusicList extends React.Component {
 
@@ -14,9 +15,9 @@ class MusicList extends React.Component {
     return (
       <div>
         <h3>musiclist</h3>
-        <ol>
+        <ul>
           {musicNodes}
-        </ol>
+        </ul>
       </div>
     )
   }

@@ -13,8 +13,7 @@ class MusicList extends React.Component {
     })
 
     return (
-      <div>
-        <h3>musiclist</h3>
+      <div className="music-list">
         <ul>
           {musicNodes}
         </ul>

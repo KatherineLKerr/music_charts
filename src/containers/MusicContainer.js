@@ -23,8 +23,8 @@ class MusicContainer extends React.Component {
 
     render() {
       return(
-        <div>
-          <h1>hello im a container</h1>
+        <div className="music-container">
+          <h1>Charts List - iTunes Top 20</h1>
           <MusicList chart={this.state.musicChart}/>
         </div>
       )

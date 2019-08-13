@@ -2,10 +2,10 @@ import React from 'react';
 import './MusicItem.css';
 
 const MusicItem = (props) => (
-  <div>
+  <div className="music-item">
     <li>
-      <h4> {props.position} - {props.song['im:name'].label}</h4>
-      <p>{props.song['im:artist'].label}</p>
+      <p className="music-item-title"> {props.position} - {props.song['im:name'].label}</p>
+      <p> {props.song['im:artist'].label} </p>
     </li>
   </div>
 )

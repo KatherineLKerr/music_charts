@@ -7,16 +7,16 @@ class MusicList extends React.Component {
 
     const musicNodes = this.props.chart.map((song, index) => {
       return(
-        <MusicItem key={index}>{song.title.label} - {song['im:artist'].label}</MusicItem>
+        <MusicItem>{index + 1} : Title: {song.title.label} Artist:{song['im:artist'].label}</MusicItem>
       )
     })
 
     return (
       <div>
         <h3>musiclist</h3>
-        <ol>
+        <ul>
           {musicNodes}
-        </ol>
+        </ul>
       </div>
     )
   }
